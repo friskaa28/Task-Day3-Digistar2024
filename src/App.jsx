@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import './App.css';
 import AppRoute from './router/AppRouter';
-import { ThemeContext } from './ThemeContext';
+import { ThemeContext } from './context/ThemeContext';
 
 function App() {
   const { theme } = useContext(ThemeContext);

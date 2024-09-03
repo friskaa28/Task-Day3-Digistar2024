@@ -8,7 +8,7 @@ import { Media } from '../Pages/Media';
 import { Contact } from '../Pages/Contact';
 import { Footer } from '../components/Footer';
 import { PrivateRoute } from './PrivateRoute';
-import { ThemeContext } from '../context/ThemeContext'; // Import ThemeContext
+import { ThemeContext } from './context/ThemeContext'; // Import ThemeContext
 
 function AppRoute() {
   const [isLogin, setIsLogin] = useState(false);

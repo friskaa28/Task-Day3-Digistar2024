@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { navItems } from '../constants/data';
 import { Link } from 'react-router-dom';
 import PadiUMKLogo from '../assets/images/padiUMKM.png';
-import { ThemeContext } from '../ThemeContext'; // Import ThemeContext
+import { ThemeContext } from '../context/ThemeContext';
 import { FaSun, FaMoon } from 'react-icons/fa'; // Import icons
 
 export const Header = ({ isLogin, onClick }) => {
